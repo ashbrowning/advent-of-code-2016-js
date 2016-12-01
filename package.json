@@ -1,0 +1,34 @@
+{
+  "name": "advent-of-code-2016",
+  "version": "1.0.0",
+  "description": "Advent of code 2016 solutions in ES2015",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/jasmine-node/bin/jasmine-node --verbose test.spec.js",
+    "lint": "eslint -c ./.eslintrc.json ./**/*.js",
+    "build": "npm run lint && npm run test",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "advent",
+    "of",
+    "code",
+    "es6",
+    "es2015",
+    "js"
+  ],
+  "author": "Ash Browning",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^2.3.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.0",
+    "typings": "^0.6.10"
+  },
+  "engines": {
+    "node": "^6.0.0"
+  },
+  "dependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
