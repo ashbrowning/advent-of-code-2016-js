@@ -3,7 +3,8 @@
   "rules": {
     "strict": [0, "safe"],
     "no-console": 0,
-    "no-confusing-arrow": 1
+    "no-confusing-arrow": 1,
+    "no-param-reassign": ["error", { "props": false }]
   },
   "env": {
     "es6": true,
