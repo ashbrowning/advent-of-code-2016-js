@@ -28,4 +28,10 @@ describe('Advent of code tests', () => {
   it('should give correct answers to day 4 part 2', () => {
     expect(launcher(5, 2)).toBe('1050cbbd');
   });
+  it('should give correct answers to day 4 part 1', () => {
+    expect(launcher(6, 1)).toBe('mlncjgdg');
+  });
+  it('should give correct answers to day 4 part 2', () => {
+    expect(launcher(6, 2)).toBe('bipjaytb');
+  });
 });
