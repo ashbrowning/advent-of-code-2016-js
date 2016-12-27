@@ -40,4 +40,7 @@ describe('Advent of code tests', () => {
   it('should give correct answers to day 7 part 2', () => {
     expect(launcher(7, 2)).toBe(231);
   });
+  it('should give correct answers to day 8 part 1', () => {
+    expect(launcher(8, 1)).toBe(128);
+  });
 });
