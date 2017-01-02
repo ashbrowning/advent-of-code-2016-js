@@ -9,7 +9,7 @@ module.exports = ([input]) => {
     for (let i = 0; i < inputLength;) {
       if (inputStr[i] === '(') {
         let [m, l, r] = inputStr.slice(i).match(markerRegex);
-        l =parseInt(l, 10);
+        l = parseInt(l, 10);
         r = parseInt(r, 10);
         size += r * getLength(inputStr.slice(i + m.length, i + m.length + l));
         i += m.length + l;
